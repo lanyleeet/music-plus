@@ -1,0 +1,7 @@
+##### Need to join voice channel to use command! #####
+
+# No song playing in guild!
+no_player: "Наразі в цій гільдії немає пісень."
+
+# Need to join voice & same voice to use command!
+no_voice: "Ви повинні бути в одному/голосовому каналі."

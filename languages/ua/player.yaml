@@ -1,0 +1,64 @@
+##### On track start playing! Event #####
+track_title: "Початок відтворення..."
+track_icon: "https://cdn.discordapp.com/emojis/741605543046807626.gif"
+
+# Embed Field
+author_title: "Автор:"
+request_title: "Запросив:"
+volume_title: "Поточна гучність:"
+queue_title: "Довжина черги:"
+duration_title: "Тривалість:"
+total_duration_title: "Загальна тривалість:"
+current_duration_title: "Тривалість: `[0:00 / %{current_duration}]`"
+
+# Need in voice to use button!
+join_voice: "Щоб скористатися цією кнопкою, вам потрібно бути в одному каналі/голосовому каналі."
+
+# Message Button
+switch_pause: Призупинено
+switch_resume: Відновлено
+pause_msg: "`⏯` | *Пісня була:* `%{pause}`"
+
+skip_msg: "`⏭` | *Пісня була:* `Пропущена`"
+
+stop_msg: "`🚫` | *Пісня була:* `Зупинена`"
+
+shuffle_msg: "`🔀` | *Черга була:* `Перемішана`"
+
+switch_enable: Увімкнено
+switch_disable: Вимкнено
+repeat_msg: "`🔁` | *Цикл:* `%{loop}`"
+
+volup_msg: "`🔊` | *Зміна гучності на:* `%{volume}%`"
+voldown_msg: "`🔈` | *Зміна гучності на:* `%{volume}%`"
+
+replay_msg: "`⏮` | *Пісня була:* `Replayed`"
+
+queue_author: "Черга - %{guild}"
+queue_description: "*Зараз грає*\n*[%{track}](%{track_url})* `[%{duration}]` • %{requester}\n\n*Решта черги*:%{list_song}"
+queue_footer: "Сторінка • %{page}/%{pages} | %{queue_lang} • Пісня | %{total_duration} • Загальна тривалість"
+
+clear_msg: "`📛` | *Черга була:* `Очищена`"
+
+
+##### On QueueEnd Event #####
+queue_end_desc: "`📛` | *Пісня була:* `Закінчена`"
+
+
+##### On Track get error!! Event #####
+error_desc: "`❌` | *У пісні помилка:* `Авто-пропуск`"
+
+
+##### On Track get stuck!! Event #####
+stuck_desc: "`❌` | *Пісня застрягла:* `Авто-пропуск`"
+
+
+##### On Bot get move Event #####
+
+# On player get discoconnect
+dis_title: "Відключення"
+dis_desc: "*Мене відключили <#%{voice}>*"
+
+# On player get move! = (detroy player)
+leave_title: "Переміщено"
+leave_desc: "*Я був автоматично відключений*"

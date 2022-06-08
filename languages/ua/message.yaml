@@ -1,0 +1,16 @@
+##### MessageCraete Event #####
+
+# On @mention bot get ping back!
+my_prefix: "`🤖` | *Мій префікс:* `%{prefix}`"
+
+# On put id to settings/config.js in DEV_ID
+dev_only: Бот на технічному обслуговуванні. (Будь ласка, поверніться пізніше)
+
+# No permission to use command (this for bot!)
+no_perms: У мене немає дозволів для виконання команди!
+
+# Bot getting error something!
+error: Щось пішло не так.
+
+# You are not the client owner of this bot!
+owner_only: Ви не власник клієнта!
